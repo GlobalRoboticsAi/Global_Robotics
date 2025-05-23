@@ -1,0 +1,304 @@
+.contactSection{
+    width: 100%;
+    height: auto;
+  background-image: url(../Images/banner_design.png);
+  background-position:bottom;
+  background-color:#000000	;
+    display: flex;
+    justify-content:end;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+.robo{
+    /* margin-top: 10rem; */
+    width:100%;
+    height:auto;
+}
+
+.contactSectionText{
+    color:#fff;
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items:start;
+    flex-direction:column;
+    margin-left: 2vw;
+    
+}
+
+.contactSectionText h1{
+    font-size:5vw;
+    font-weight:700;
+}
+
+.contactSectionText button{
+    width: 30%;
+    height: 3em;
+    background-color:#006fc2;
+    color: #fff;
+    border: 1px solid #006fc2;
+}
+
+.contactSectionText button:hover{
+    background-color: transparent;
+    border: 1px solid #006fc2;
+    color: #fff;
+}
+
+
+.contactBt{
+    width:35%;
+    height: 4rem;
+    border-radius:2rem 2rem 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    /* border: 1px solid #fff; */
+    /* background: linear-gradient(to left,#28b896,#233068); */
+    background-color: #03263E;
+}
+
+/* Contact Us Form */
+
+.contactUsFormSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-family: "Raleway", sans-serif;
+}
+
+.contactUsAddress{
+    width:50%;
+    height: auto;
+    margin-left:2vw ;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+   
+    /* border: 1px solid black; */
+}
+
+.contactUsAddress h1{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+
+/* .contactUsAddressData p{
+    
+} */
+
+.contactUsForm{
+    width: 35%;
+    border: 1px solid #ede9e9;
+    display: flex;
+    flex-direction: column;
+    /* align-items:center; */
+    /* justify-content: center; */
+    background-color: #ede9e9;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    padding: 2vw;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.contactUsForm h1{
+    font-weight: 700;
+}
+
+.contactUsForm input{
+    width:100%;
+    height:3vw;
+    font-size: 1vw;
+
+}
+
+.contactUsForm input::placeholder{
+    text-align:start;
+    font-size: 1vw;
+}
+
+.contactUsForm h4{
+    width: 100%;
+    text-align: start;
+    font-weight: 300;
+}
+
+.formBtn{
+    background-color: #0000FF;
+    border-color: #0000FF;
+    color: #fff;
+    border-radius: 1vw;
+    width: 30%;
+    height: 3vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.formBtn:hover{
+    background-color: #28B896;
+    border-color: #28B896;
+}
+
+
+
+
+@media (max-width: 768px){
+    .contactSection{
+        width: 100%;
+        height: auto;
+      background-image: url(../Images/banner_design.png);
+      background-position:bottom;
+      background-color:#000000	;
+        display: flex;
+        flex-direction: column;
+        font-family: "Raleway", sans-serif;   
+    }
+    
+    
+    
+    .robo{
+        width:100%;
+        height: auto;
+    }
+    
+    .contactSectionText{
+        /* color:#fff;
+        width: 100%; */
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        width: 100%;
+        height:40%;
+        margin-top: 30vw;
+    
+    }
+    
+    .contactSectionText h1{
+        font-size:10vw;
+        font-weight:700;
+    }
+    
+    .contactSectionText button{
+        width: 30%;
+        height: 3em;
+        background-color:#006fc2;
+        color: #fff;
+        border: 1px solid #006fc2;
+    }
+    
+    .contactSectionText button:hover{
+        background-color: transparent;
+        border: 1px solid #006fc2;
+        color: #fff;
+    }
+    
+    
+    .contactBt{
+        width:55%;
+        height: 4rem;
+        border-radius:2rem 2rem 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        /* border: 1px solid #fff; */
+        /* background: linear-gradient(to left,#28b896,#233068); */
+        background-color: #03263E;
+    }
+
+
+    /* Contact Us Form */
+
+.contactUsFormSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactUsAddress{
+    width:90%;
+    height: auto;
+
+}
+
+.contactUsAddress h1{
+    font-size: 10vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contactUsAddress p{
+    text-align: center;
+}
+
+.contactUsAddress h2{
+    text-align: center;
+}
+
+
+
+.contactUsForm{
+    width: 90%;
+    border: 1px solid #ede9e9;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* justify-content: center; */
+    background-color: #ede9e9;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    padding: 2vw;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10vw;
+}
+
+.contactUsForm h1{
+    font-weight: 700;
+}
+
+.contactUsForm input{
+    width:100%;
+    height: auto;
+    font-size: 5vw;
+}
+
+.contactUsForm input::placeholder{
+    /* text-align:start; */
+    font-size:3vw;
+}
+
+.contactUsForm h4{
+    font-size: 3vw;
+    width: 100%;
+    text-align: start;
+    font-weight: 300;
+}
+
+.formBtn{
+    background-color: #0000FF;
+    border-color: #0000FF;
+    color: #fff;
+    border-radius: 1vw;
+    width: auto;
+    height: auto;
+}
+
+.formBtn:hover{
+    background-color: #28B896;
+    border-color: #28B896;
+}
+
+}

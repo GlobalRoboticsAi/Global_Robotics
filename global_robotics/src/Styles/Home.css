@@ -1,0 +1,574 @@
+/* About Section */
+.homeAboutSection{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction:row; 
+    font-family: "Raleway", sans-serif;   
+}
+
+
+.homeAboutSectionText{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 4vw;
+    width: 50%;
+    height: auto;
+    padding: 2vw;
+   
+}
+
+.homeAboutSectionText h1{
+    font-size:3.5vw;
+    font-weight:700;
+}
+
+.homeAboutSectionText button{
+    width: 20%;
+    height: 3em;
+    background-color:#233068;
+    color: #fff;
+    border: 2px solid #233068;
+}
+
+.homeAboutSectionText button:hover{
+    background-color: transparent;
+    color:black;
+    border: 2px solid #233068;
+}
+
+.homeAboutSectionImage{
+    width:50%;
+    height:auto;
+}
+
+/* Service Section */
+
+.homeServiceSection{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction:column;
+    font-family: "Raleway", sans-serif;
+}
+.homeServiceSectionText{
+    width:99%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeServiceSectionText h1{
+    font-size:3.5vw;
+    font-weight:700;
+}
+
+.homeServiceSectionImage{
+    width:100;
+    height: auto;
+}
+
+.homeServiceSectionText button{
+    width: 8%;
+    height: 3.5em;
+    background-color:#233068;
+    color: #fff;
+    border: 2px solid #233068;
+    border-radius:5vw;
+    
+    
+}
+
+.homeServiceSectionText button:hover{
+    background-color: transparent;
+    color:black;
+    border: 2px solid #233068;
+}
+
+/* Why Choose Us */
+
+.homeWhyChooseUsSection{
+    /* background: linear-gradient(to right,#020F26,#083251); */
+    width: 100%;
+    height: auto;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    font-family: "Raleway", sans-serif;
+}
+
+.homeWhyChooseUsSection img{
+    width: 50%;
+    height:auto;
+}
+
+.homeWhyChooseUsSectionText{
+    width: 50%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.homeWhyChooseUsSectionText h1{
+    font-size:3.5vw;
+    font-weight:700;
+}
+
+.homeWhyChooseUsSectionText p{
+    font-size: 1.3vw;
+}
+
+
+/* Partner */
+/* .ourPartnersSection {
+    width: 100%;
+  padding: 40px 20px;
+  background-color:#ede9e9;
+  text-align: center;
+   font-family: "Raleway", sans-serif;
+}
+
+.ourPartnersSection h1 {
+  margin-bottom: 30px;
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.ourPartnersSection p{
+    font-size: 1.2vw;
+}
+
+.partnerLogoSlide {
+  padding: 10vw;
+}
+
+.partnerLogoSlide img {
+  width: auto;
+  height:8vw;
+  margin: auto;
+  display: block;
+}
+
+.slick-slider {
+  max-width: 90%;
+  margin: 0 auto;
+  
+}
+
+.slick-slide {
+  transition: all 0.3s ease-in-out;
+} */
+
+/* Affiliated to */
+.ourPartnersSection {
+  width: 100%;
+  /* padding: 40px 20px; */
+  height: auto;
+  /* background-color: #ede9e9; */
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.ourPartnersSection h1 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.ourPartnersSection p {
+  font-size: 1.2vw;
+  margin-bottom: 40px;
+}
+
+.partnerLogoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  
+}
+
+.partnerLogoTile img {
+  width: 65%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 2vw;
+}
+
+
+/* Channel Partner */
+
+.ourChannelPartnersSection {
+  width: 100%;
+  /* padding: 40px 20px; */
+  height: auto;
+  background-color: #ede9e9;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.ourChannelPartnersSection h1 {
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.ourChannelPartnersSection p {
+  font-size: 1.2vw;
+  margin-bottom: 40px;
+}
+
+.ChannelPartnerLogoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  /* max-width: 90%; */
+  margin: 0 auto;
+
+  
+}
+
+.ChannelPartnerLogoTile img {
+  width:70%;
+  height:auto;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 2vw;
+}
+
+
+/* Responsive text */
+@media (max-width: 768px) {
+  .ourPartnersSection h1 {
+    font-size: 7vw;
+  }
+
+  .ourPartnersSection p {
+    font-size: 4vw;
+  }
+
+  .partnerLogoTile img {
+    height: 14vw;
+  }
+}
+
+
+
+
+/* Videos */
+
+.reelSection {
+  text-align: center;
+  padding: 40px 20px;
+  /* background-color: #f7f7f7; */
+  background-color: #dadada;
+}
+
+.reelSection h1 {
+  font-size: 5vw;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.reelSection p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.reelVideos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reelVideo {
+  width: 250px;
+  height: 444px; /* Typical reel ratio (9:16) */
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.reelVideo:hover {
+  transform: scale(1.03);
+}
+
+
+
+/* Mobile Size */
+@media (max-width: 768px){
+
+    /* About Section */
+    .homeAboutSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:column-reverse;
+        
+    }
+    
+    
+    .homeAboutSectionText{
+        width:100%;
+        height:auto;
+    }
+    
+    .homeAboutSectionImage{
+        width:100%;
+        height:auto;
+    }
+
+    .homeAboutSectionText h1{
+        font-size:8vw;
+        font-weight:900;
+        width: 100%;
+        text-align: center;
+    }
+
+    .homeAboutSectionText p{
+        font-size: 4vw;
+    }
+
+
+    .homeAboutSectionText button{
+        width: 30%;
+        height: 10vw;
+        margin: 0 auto;
+    }
+    
+    .homeAboutSectionText button:hover{
+        background-color: transparent;
+        color:black;
+        border: 2px solid #233068;
+    }
+
+    /* Service Section */
+
+    .homeServiceSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+    }
+    .homeServiceSectionText{
+        width:99%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .homeServiceSectionText h1{
+        font-size:7.5vw;
+        font-weight:900;
+    }
+    
+    .homeServiceSectionImage{
+        width:100;
+        height:auto;
+        margin-top: 2vw
+    }
+    
+    .homeServiceSectionText button{
+        width: 25%;
+        height: 8vw;
+        background-color:#233068;
+        color: #fff;
+        border: 2px solid #233068;
+        font-size: 3vw;
+        border-radius: 2vw;
+        
+        
+    }
+    
+    .homeServiceSectionText button:hover{
+        background-color: transparent;
+        color:black;
+        border: 2px solid #233068;
+    }
+
+
+
+    /* Why choose us */
+    .homeWhyChooseUsSection{
+    /* background: linear-gradient(to right,#020F26,#083251); */
+    width: 100%;
+    height: auto;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.homeWhyChooseUsSection img{
+    width:100%;
+    height:auto;
+
+}
+
+.homeWhyChooseUsSectionText{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.homeWhyChooseUsSectionText h1{
+    font-size:8vw;
+    font-weight:700;
+}
+
+.homeWhyChooseUsSectionText p{
+    font-size: 3.5vw;
+    
+}
+
+
+  /* Videos */
+
+.reelSection {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+}
+
+.reelSection h1 {
+  font-size: 8vw;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.reelSection p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.reelVideos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reelVideo {
+  width: 250px;
+  height: 444px; /* Typical reel ratio (9:16) */
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.reelVideo:hover {
+  transform: scale(1.03);
+}
+
+/* Affiliated to */
+.ourPartnersSection {
+  width: 100%;
+  /* padding: 40px 20px; */
+  height: auto;
+  /* background-color: #ede9e9; */
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 5vw;
+
+}
+
+.ourPartnersSection h1 {
+  font-size: 9vw;
+  font-weight: 700;
+}
+
+.ourPartnersSection p {
+  font-size: 3vw;
+  margin-bottom: 40px;
+}
+
+.partnerLogoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  
+}
+
+.partnerLogoTile img {
+  width: 65%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 2vw;
+  margin: 0 auto;
+}
+
+
+/* Channel Partner */
+
+.ourChannelPartnersSection {
+  width: 100%;
+  height: auto;
+  background-color: #ede9e9;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 5vw;
+  
+
+}
+
+.ourChannelPartnersSection h1 {
+  font-size: 9vw;
+  font-weight: 700;
+}
+
+.ourChannelPartnersSection p {
+  font-size: 3vw;
+  margin-bottom: 40px;
+}
+
+.ChannelPartnerLogoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  
+
+  
+}
+
+.ChannelPartnerLogoTile img {
+  width:70%;
+  height:auto;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 3vw;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+}
+
+
+}

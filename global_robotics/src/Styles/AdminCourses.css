@@ -1,0 +1,32 @@
+.addNewCourseBtn{
+    display: block;
+    margin: 0 auto;
+    height: 3vw;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 3px;
+}
+
+.addNewCourseBtn:hover{
+    background-color: transparent;
+
+}
+
+@media (max-width: 768px){
+
+    .addNewCourseBtn{
+    display: block;
+    margin: 0 auto;
+    height: 6vw;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 3px;
+}
+
+.addNewCourseBtn:hover{
+    background-color: transparent;
+    
+}
+
+}
+

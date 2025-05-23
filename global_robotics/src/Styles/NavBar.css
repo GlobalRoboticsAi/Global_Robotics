@@ -1,0 +1,84 @@
+.nave{
+    background-color:transparent;
+    width: 100%;
+    position: absolute;
+    font-size: larger;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.logo{
+    width: auto;
+    height: 50px;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.tColor {
+    color: #fff !important; /* Changes the brand text color to white */
+    font-size:x-large;
+  }
+
+  .nave .nav-link {
+    color: #fff !important;
+    
+  }
+
+  .nav-link.active {
+    color: #27b392 !important;
+    font-weight: bold;
+  }
+  
+  .nave .nav-link:hover{
+    text-decoration: underline;
+
+  }
+  
+
+  .navItems {
+    display: flex;
+    align-items:flex-end; /* or end */
+    justify-content:flex-end;
+    
+}
+  
+  
+/* Change navbar toggler icon (hamburger) color to white */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* optional: border color */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+
+  @media (max-width: 768px){
+    .nave{
+        background-color:transparent;
+        width: 100%;
+        position: absolute;
+        font-family: "Raleway", sans-serif;   
+        
+    }
+    .tColor {
+        color: #fff !important; /* Changes the brand text color to white */
+        font-size: large;
+      }
+    .nave .nav-link {
+        color: #fff !important;
+      }
+
+      .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.7); /* make dropdown visible */
+        position: relative;
+        width: 100%;
+      }
+
+      .logo{
+        width:auto;
+        height:10vw;
+        position: relative;
+      }
+      
+  }

@@ -1,0 +1,147 @@
+.addNewJobBtn{
+   display: block;
+   margin: 0 auto;
+   width:10%;
+   height: 4vw;
+   border-radius: 5vw;
+   background-color: orange;
+   border: none;
+   color: #fff;
+}
+
+.addNewJobBtn:hover{
+    background-color:black;
+}
+
+/* User Career */
+
+
+.UserCareerCardSection{
+    width:100%;
+    height: auto;
+    display: flex;
+    font-family: "Raleway", sans-serif;   
+}
+
+.UserCareerCard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+
+.UserCard{
+   width:100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* initial shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+    padding:2vw;
+    background-color: #223067;
+    color: #fff;
+}
+
+.UserCareerCardText{
+    display: flex;
+    flex-direction:column;
+}
+
+.UserCard:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 20px #223067; /* stronger shadow on hover */
+  transform: translateY(-5px); /* optional lift effect */
+}
+
+.job-description{
+        white-space: pre-line;
+}
+
+.applyBtn{
+    width: 30%;
+    height: 3vw;
+    background-color:orange;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.applyBtn:hover{
+    background-color: #fff;
+}
+
+@media (max-width: 768px){
+
+    .UserCareerCardSection{
+    width:100%;
+    height: auto;
+    display: flex;
+    font-family: "Raleway", sans-serif;   
+}
+
+.UserCareerCard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 3 cards per row */
+  gap: 20px;
+  padding: 40px 20px;
+  
+}
+
+
+.UserCard{
+   width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* initial shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+    padding:2vw;
+    background-color: #223067;
+    color: #fff;
+    height: auto;
+}
+
+.UserCareerCardText{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.UserCard:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 20px #223067; /* stronger shadow on hover */
+  transform: translateY(-5px); /* optional lift effect */
+}
+
+.job-description{
+        white-space: pre-line;
+}
+
+.job-description h5{
+    color: orange;
+    text-align: center;
+}
+
+.applyBtn{
+    width: auto;
+    height: auto;
+    background-color:orange;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.applyBtn:hover{
+    background-color: #fff;
+}
+
+
+}
