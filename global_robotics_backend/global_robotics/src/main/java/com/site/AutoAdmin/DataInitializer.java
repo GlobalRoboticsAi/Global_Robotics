@@ -17,9 +17,9 @@ public class DataInitializer {
             if (userRepo.findByRole("ADMIN") == null) {
                 User admin = new User();
                 admin.setName("Admin");
-                admin.setEmail("maliv0589@gmail.com");
-                admin.setContact("9370996007");
-                admin.setPassword(encoder.encode("Admin@123"));
+                admin.setEmail("globalrobotics.ai@gmail.com");
+                admin.setContact("7756051573");
+                admin.setPassword(encoder.encode("Globalai@07"));
                 admin.setRole("ADMIN");
                 userRepo.save(admin);
                 System.out.println("Default admin user created.");

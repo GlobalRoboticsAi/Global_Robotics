@@ -56,7 +56,7 @@ public class UserController {
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
-            helper.setTo("vaibhavmali2387@gmail.com"); // Company HR Email
+            helper.setTo("globalrobotics.ai@gmail.com"); // Company HR Email
             helper.setSubject("New Job Application for " + jobTitle);
 
             String content = String.format(

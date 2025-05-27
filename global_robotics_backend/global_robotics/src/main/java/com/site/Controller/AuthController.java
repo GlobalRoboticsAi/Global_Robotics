@@ -163,7 +163,7 @@ public class AuthController {
         try {
         	System.out.println("Email");
             SimpleMailMessage message = new SimpleMailMessage();
-            message.setTo("maliv0589@gmail.com"); // Your company's receiving email
+            message.setTo("globalrobotics.ai@gmail.com"); // Your company's receiving email
             message.setSubject("New Contact Message from " + form.getName());
             message.setText(
                     "Name: " + form.getName() + "\n" +
@@ -187,7 +187,7 @@ public class AuthController {
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
-            helper.setTo("vaibhavmali2387@gmail.com");
+            helper.setTo("globalrobotics.ai@gmail.com");
             helper.setSubject("New Admission Application for " + request.getCourseTitle());
 
             String content = String.format(
