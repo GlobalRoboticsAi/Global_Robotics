@@ -22,8 +22,9 @@ public class Course {
     private String description;
 
     @Lob
-    @Column(columnDefinition = "BLOB")
-    private byte[] image; // Store image bytes
+    @Column(columnDefinition = "LONGBLOB")
+    private byte[] image;
+
 
 	public Course() {
 		super();
