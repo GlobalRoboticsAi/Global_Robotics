@@ -101,13 +101,15 @@
         
     </dependencies>
 
-    <build>
+
+<!-- For start comment out this -->
+    <!-- <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
+    </build> -->
 
 </project>
