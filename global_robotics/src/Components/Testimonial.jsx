@@ -37,7 +37,7 @@ const Testimonial = () => {
         {testimonials.map((testimonial, idx) => (
           <div className="testimonial-card" key={idx}>
             <RiDoubleQuotesL className='double-colon'/>
-            <img src={testimonial.image} alt={testimonial.name} className="user-image" />
+            {/* <img src={testimonial.image} alt={testimonial.name} className="user-image" /> */}
             <h3>{testimonial.name}</h3>
             <p className="role">{testimonial.role}</p>
             <p className="message">"{testimonial.message}"</p>
