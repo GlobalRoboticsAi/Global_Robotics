@@ -129,8 +129,7 @@ public class AuthController {
         response.put("authorities", userDetails.getAuthorities());
         return response;
     }
-    
-    
+       
     @PostMapping("/send-otp")
     public String sendOtp(@RequestParam String email) {
     	User user = userService.existsByEmail(email);
@@ -238,7 +237,6 @@ public class AuthController {
     	    List<Map<String, Object>> mediaList = mediaService.getAllMedia();
     	    return ResponseEntity.ok(mediaList);
     	}
-
 
         @GetMapping("/view/{id}")
         public ResponseEntity<byte[]> viewMedia(@PathVariable int id) {
