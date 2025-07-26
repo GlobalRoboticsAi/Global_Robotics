@@ -1,0 +1,135 @@
+.EvHomeCardSection{
+    /* background-color: #2d8bca; */
+    width: 100%;
+    height: auto;
+    margin-top: 2vw;
+    font-family: "Raleway", sans-serif;
+   
+}
+
+.EvHomeCardSection h4{
+    margin-top: 5vw;
+    font-size: 2vw;
+    color: #28B896;
+    text-align: center;
+    font-weight: 700;
+}
+
+.EvHomeCardSection h6{
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+
+.EvCard{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap:20px;
+    padding: 40px 20px;
+
+}
+
+.EVServiceCard{
+   width:100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #44D62D;
+    box-shadow: 0 2px 5px #44D62D; /* initial shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+    padding:2vw;
+    /* background-color: #223067; */
+    color:black;
+}
+
+.cardLogo{
+    width: 20%;
+    height:8vw;
+}
+
+.EVcardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.EVServiceCard:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 20px #44D62D; /* stronger shadow on hover */
+  transform: translateY(-5px); /* optional lift effect */
+}
+
+
+@media (max-width: 768px){
+    .EvHomeCardSection{
+    /* background-color: #2d8bca; */
+    width: 100%;
+    height: auto;
+    margin-top: 2vw;
+   
+}
+
+.EvHomeCardSection h4{
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #28B896;
+    text-align: center;
+    font-weight: 700;
+}
+
+.EvHomeCardSection h6{
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+
+.EvCard{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 2 cards per row */
+    gap:20px;
+
+}
+
+.EVServiceCard{
+   width:100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #44D62D;
+    box-shadow: 0 4px 10px #44D62D;
+    box-sizing: border-box;
+    padding:2vw;
+    gap: 5vw;
+}
+
+.cardLogo{
+    width: 50%;
+    height:auto;
+    margin: 0 auto;
+    
+}
+
+.EVcardText{
+    display: flex;
+    flex-direction: column;   
+}
+
+.EVcardText h3{
+    font-weight: 700;
+    text-align: center;
+}
+
+.EVcardText p{
+    font-size: 3vw;
+    text-align: justify;
+}
+
+}

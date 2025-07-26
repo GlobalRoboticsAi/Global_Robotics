@@ -23,6 +23,9 @@ export default function NavBar() {
               <a class="nav-link" href="/services">Services</a>
             </li>
             <li class="nav-item me-5">
+              <a class="nav-link" href="/evHome">EV Charging</a>
+            </li>
+            <li class="nav-item me-5">
               <a class="nav-link" href="/courses">Courses</a>
             </li>
             <li class="nav-item me-5">

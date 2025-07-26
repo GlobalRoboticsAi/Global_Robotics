@@ -1,0 +1,328 @@
+.evChargingSection {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url(../Images/EVHome.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #000000;
+  display: flex;
+  justify-content: end;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  z-index: 1;
+}
+
+.evChargingSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* adjust darkness here */
+  z-index: -1;
+}
+
+
+.EvPlayLogo{
+    margin-top: 2rem;
+    width:60%;
+    height:auto;
+    visibility:hidden;
+}
+
+/* Our Process */
+.EvProcess h1{
+    font-size:5vw;
+    font-weight:700;
+    text-align: center;
+    margin: 2vw;
+}
+
+.beLogo{
+  width:100%;
+  height:auto;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.evChargingSectionText{
+    color:#fff;
+    width: 50%;
+    height: auto;
+    display:flex ;
+    justify-content: center;
+    align-items:start;
+    flex-direction:column;
+    margin-left: 2vw;
+    
+}
+
+.evChargingSectionText h1{
+    font-size:4vw;
+    font-weight:700;
+    color: #fff;
+    text-align: left;
+}
+
+
+.evChargingSectionText button{
+    width: 30%;
+    height: 3em;
+    background-color:#006fc2;
+    color: #fff;
+    border: 1px solid #006fc2;
+}
+
+.evChargingSectionText button:hover{
+    background-color: transparent;
+    border: 1px solid #006fc2;
+    color: #fff;
+}
+
+
+.evChargingBt{
+    width:35%;
+    height: 4rem;
+    border-radius:2rem 2rem 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    /* border: 1px solid #fff; */
+    /* background: linear-gradient(to left,#28b896,#233068); */
+    background-color: #03263E;
+}
+
+/* Overview */
+
+.evAboutSection{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction:row; 
+    font-family: "Raleway", sans-serif;   
+}
+
+
+.evAboutSectionText{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 4vw;
+    width: 50%;
+    height: auto;
+    padding: 2vw;
+   
+}
+
+.evAboutSectionText h1{
+    font-size:3.5vw;
+    font-weight:700;
+}
+
+.evAboutSectionText p{
+    font-size:larger;
+}
+
+.evAboutSectionText li{
+    font-size: 1.8vw;
+    list-style:none;
+}
+
+.evAboutSectionText button{
+    width: 20%;
+    height: 3em;
+    background-color:#233068;
+    color: #fff;
+    border: 2px solid #233068;
+}
+
+.evAboutSectionText button:hover{
+    background-color: transparent;
+    color:black;
+    border: 2px solid #233068;
+}
+
+.evAboutSectionImage{
+    width:60%;
+    height:auto;
+}
+
+/* Types of charger */
+.typesofev {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.typesofev h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.responsive-table-container {
+  width: 100%;
+  overflow-x: auto; /* Enables scroll on mobile */
+}
+
+.ev-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* Keeps columns readable */
+}
+
+
+.ev-table th,
+.ev-table td {
+  border: 1px solid #ddd;
+  padding: 2vw;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.ev-table th {
+  background-color: #44D62D;
+  color: #fff;
+  padding: 1.5vw;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .evChargingSection {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-image: url(../Images/EVHome.jpg);
+        background-position: center;
+        background-size: cover;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        z-index: 1;
+        }
+
+.evChargingSection::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: -1;
+        }
+
+    .robo{
+        width: 100%;
+        height: auto;
+    }
+
+    .evChargingSectionText{
+        width: 100%;
+        height:auto;
+        margin-top: 30vw;
+    }
+
+    .evChargingSectionText h1{
+        font-size:10vw;
+        font-weight:900;
+        width:100%;
+        text-align: center;
+    }
+
+    .evChargingSectionText p{
+        font-size: 4vw;
+    }
+    .evChargingBt{
+        width: 60%;
+        height:15vw;
+        margin: 0 auto;
+    }
+
+/* Our Process */
+    .EvProcess h1{
+    font-size:8vw;
+    font-weight:700;
+    text-align: center;
+    margin: 2vw;
+}
+    /* About Section */
+    .evAboutSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:column-reverse;
+        
+    }
+    
+    
+    .evAboutSectionText{
+        width:100%;
+        height:auto;
+    }
+    
+    .evAboutSectionImage{
+        width:100%;
+        height:auto;
+    }
+
+    .evAboutSectionText h1{
+        font-size:8vw;
+        font-weight:900;
+        width: 100%;
+        text-align: center;
+    }
+
+    .evAboutSectionText p{
+        font-size: 4vw;
+    }
+
+    .evAboutSectionText li{
+        font-size: 4vw;
+    }
+
+    .evAboutSectionText button{
+        width: 30%;
+        height: 10vw;
+        margin: 0 auto;
+    }
+    
+    .evAboutSectionText button:hover{
+        background-color: transparent;
+        color:black;
+        border: 2px solid #233068;
+    }
+
+
+    /* Types of Ev charger */
+   .ev-table th,
+  .ev-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .typesofev h1 {
+    font-size: 5vw;
+  }
+
+  .responsive-table-container {
+    overflow-x: auto;
+  }
+
+}

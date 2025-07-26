@@ -36,6 +36,8 @@
 .HeroSectionText h1{
     font-size:3.5vw;
     font-weight:700;
+    color: #fff;
+    text-align:left;
 }
 
 .HeroSectionText button{

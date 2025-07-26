@@ -23,6 +23,7 @@ import AdminCourses from './Components/AdminCourses';
 import NewCourseForm from './Components/NewCourseForm';
 import UserCourses from './Components/UserCourses';
 import AdminMedia from './Components/AdminMedia';
+import EVHome from './Components/EVHome';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={<Home />} exact></Route>
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path='/evHome' element={<EVHome/>}/>
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/courses" element={<Courses />} />

@@ -28,4 +28,4 @@ EXPOSE 8080
 
 # Run the application
 #Uncomment to restart
-# ENTRYPOINT ["java", "-jar", "app.jar"]
+ ENTRYPOINT ["java", "-jar", "app.jar"]
