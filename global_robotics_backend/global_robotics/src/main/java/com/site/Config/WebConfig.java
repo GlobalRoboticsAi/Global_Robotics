@@ -14,7 +14,7 @@ public class WebConfig {
 	            @Override
 	            public void addCorsMappings(CorsRegistry registry) {
 	                registry.addMapping("/**")
-	                        .allowedOrigins("http://globalroboticsai.co.in") // put frontend url
+	                        .allowedOrigins("https://globalroboticsai.co.in") // put frontend url
 	                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 	                        .allowedHeaders("*")
 	                        .allowCredentials(true);
