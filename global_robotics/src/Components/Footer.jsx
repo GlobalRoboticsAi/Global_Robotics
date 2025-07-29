@@ -1,6 +1,9 @@
 import React from 'react'
 import '../Styles/Footer.css'
 import Logo from '../Images/logo.png'
+import { FaLinkedin, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+
 
 
 export default function Footer() {
