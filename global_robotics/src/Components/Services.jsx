@@ -28,7 +28,7 @@ export default function Services() {
         }
     return (
         <>
-            <div className="block">
+            
             <div className="serviceSection">
                {NavbarComponent}
                 <div className='ServiceSectionText'>
@@ -38,7 +38,7 @@ export default function Services() {
                 </div>
                 <img className='robo' src={ServicesRobo} />
             </div>
-
+            <div className="block">
             <div className="ServiceHomeCardSection">
                 <h4>SERVICES WE PROVIDE</h4>
                 <h6>Our Purpose is To Deliver Excellence in Service and Execution</h6>

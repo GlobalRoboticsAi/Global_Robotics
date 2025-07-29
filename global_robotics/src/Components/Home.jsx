@@ -136,8 +136,8 @@ export default function Home() {
         </div>
         <img className="homeServiceSectionImage" src={ServiceImg} />
       </div>
-      <br />
       </div>
+      <br />
       {/* Why choose us */}
       <div className="block">
       <div className="homeWhyChooseUsSection">
