@@ -58,6 +58,7 @@ export default function Courses() {
                 </div>
                 <img className='robo' src={CoursesPng} />
             </div>
+            <div className="block">
             <div className="CareersOpenPositionSection">
                 <div className="ourCoursesSectionText">
                     <h1>Our <span style={{ color: "#28B896" }}>Courses</span></h1>
@@ -97,6 +98,7 @@ export default function Courses() {
 
                     )}
                 </div>
+            </div>
             </div>
             <Footer />
         </>

@@ -62,6 +62,7 @@ export default function Contact() {
             </div>
 
             {/* Contact Us Form */}
+            <div className="block">
             <div className="contactUsFormSection">
                 <div className="contactUsAddress">
                     <h1>Contact <span style={{ color: "#28B896" }}>Us</span></h1>
@@ -112,6 +113,7 @@ export default function Contact() {
                     {successMessage && <p className="success">{successMessage}</p>}
                     {errorMessage && <p className="error">{errorMessage}</p>}
                 </div>
+            </div>
             </div>
             <Footer />
         </div>

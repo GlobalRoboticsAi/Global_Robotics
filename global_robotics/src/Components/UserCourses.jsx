@@ -74,13 +74,15 @@ export default function UserCourses() {
                 </div>
                 <img className='robo' src={CoursesPng} />
             </div>
+            <div className="block">
             <div className="CareersOpenPositionSection">
                 <div className="ourCoursesSectionText">
                     <h1>Our <span style={{ color: "#28B896" }}>Courses</span></h1>
                     <h2>📌 We’re currently offering the following courses:</h2>
                 </div>
+                </div>
 
-
+                <div className="block">
                 <div className="ourCoursesCardSection">
                     {error && <p style={{ color: 'red' }}>{error}</p>}
                     {courses.length === 0 && !error ? (
@@ -120,6 +122,7 @@ export default function UserCourses() {
                     onClose={() => setSelectedCourse(null)}
                 />
             )}
+            </div>
             <Footer />
         </>
     )

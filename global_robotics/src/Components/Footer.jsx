@@ -43,6 +43,14 @@ export default function Footer() {
             <li><a href="mailto:globalrobotics.ai@gmail.com.com">globalrobotics.ai@gmail.com</a></li>
             <li>Office no.s-6, 2nd floor, Krystal Plaza, near Gold's Gym, Tarabai Park, Kolhapur, Maharashtra 416003</li>
           </ul>
+          <div className="footerSocial">
+              <div className="socialIcons">
+              <a href="mailto:globalrobotics.ai@gmail.com" target="_blank" rel="noopener noreferrer"><SiGmail /></a>
+              <a href="https://www.linkedin.com/company/global-robotics-and-ai-research-company/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+              <a href="https://www.instagram.com/global_robotics_ai/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://wa.me/917756051573" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+              </div>
+            </div>
         </div>
         </div>
         <hr/>

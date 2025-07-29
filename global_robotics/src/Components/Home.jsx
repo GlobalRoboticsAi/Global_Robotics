@@ -114,6 +114,7 @@ export default function Home() {
       <Hero />
 
       {/* About Section */}
+      <div className="block">
       <div className="homeAboutSection">
         <img className="homeAboutSectionImage" src={AiImage} />
         <div className="homeAboutSectionText">
@@ -125,9 +126,9 @@ export default function Home() {
           <button onClick={() => navigate('/about')}>Read More</button>
         </div>
       </div>
-
+      </div>
       {/* Services */}
-
+      <div className="block">
       <div className="homeServiceSection">
         <div className="homeServiceSectionText">
           <h1>Our <span style={{ color: "#28B896" }}>Services</span></h1>
@@ -136,9 +137,9 @@ export default function Home() {
         <img className="homeServiceSectionImage" src={ServiceImg} />
       </div>
       <br />
-
+      </div>
       {/* Why choose us */}
-
+      <div className="block">
       <div className="homeWhyChooseUsSection">
         <img src={WhyChooseUsImage} />
         <div className="homeWhyChooseUsSectionText">
@@ -164,8 +165,9 @@ export default function Home() {
           </p>
         </div>
       </div>
-
+      </div>
          {/* Affiliated to */}
+         <div className="block">
       <div className="ourPartnersSection">
         <h1>Affiliated <span style={{ color: "#28B896" }}>to</span></h1>
         <p>Associated with pioneers and trusted organizations at the forefront of robotics and AI</p>
@@ -178,8 +180,9 @@ export default function Home() {
           ))}
         </div>
       </div>
-
+          </div>
             {/* Videos Section */}
+            <div className="block">
       <div className="reelSection">
   <h1>
     Our <span style={{ color: "#28B896" }}>Highlights</span>
@@ -212,9 +215,10 @@ export default function Home() {
     </div>
   )}
 </div>
-
+</div>
 
           {/* Channel Partners */}
+          <div className="block">
       <div className="ourChannelPartnersSection">
         <h1>Our Channel <span style={{ color: "#28B896" }}>Partners</span></h1>
         <p>Working alongside pioneers and organizations at the forefront of robotics and AI innovation</p>
@@ -227,9 +231,11 @@ export default function Home() {
           ))}
         </div>
       </div>
+      </div>
           <Testimonial />
 
       {/* Contact Us Form */}
+      <div className="block">
       <div className="contactUsFormSection">
         <div className="contactUsAddress">
           <h1>Contact <span style={{ color: "#28B896" }}>Us</span></h1>
@@ -281,7 +287,7 @@ export default function Home() {
           {errorMessage && <p className="error">{errorMessage}</p>}
         </div>
       </div>
-
+          </div>
       {/* <div className="ourPartnersSection">
         <h1>Our <span style={{ color: "#28B896" }}>Partners</span></h1>
         <p>Trusted by leading innovators and organizations powering the future of robotics and AI.</p>
@@ -293,7 +299,7 @@ export default function Home() {
           ))}
         </Slider>
       </div> */}
-
+        <div className="block">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.076639054881!2d74.24230387461287!3d16.71192262191338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10196dc303375%3A0xc6739ffa664a8806!2sGlobal%20Robotics%20and%20AI%20Research!5e1!3m2!1sen!2sin!4v1747220157716!5m2!1sen!2sin"
         width="100%"
@@ -304,7 +310,7 @@ export default function Home() {
         referrerPolicy="no-referrer-when-downgrade"
         title="Global Robotics and AI Research Location"
       />
-
+      </div>
 
 
       {/* Footer Section */}

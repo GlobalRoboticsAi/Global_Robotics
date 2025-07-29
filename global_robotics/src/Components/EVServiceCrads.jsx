@@ -9,6 +9,7 @@ import System from "../Images/System.png"
 export default function EVServiceCrads() {
   return (
     <div>
+        <div className="block">
       <div className="EvHomeCardSection">
                 <h4>SERVICES WE PROVIDE</h4>
                 <h6>Our Purpose is To Deliver Excellence in Service and Execution</h6>
@@ -43,6 +44,7 @@ export default function EVServiceCrads() {
                             <h3>🌐 Smart Charging Integration</h3>
                             <p>Integration with Belectriq’s smart systems for usage tracking, billing, and remote access.</p>
                         </div>
+                    </div>
                     </div>
                     </div>
                     </div>

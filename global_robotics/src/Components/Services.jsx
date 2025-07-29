@@ -28,6 +28,7 @@ export default function Services() {
         }
     return (
         <>
+            <div className="block">
             <div className="serviceSection">
                {NavbarComponent}
                 <div className='ServiceSectionText'>
@@ -123,6 +124,7 @@ export default function Services() {
                     </div>
 
                 </div>
+            </div>
             </div>
             <Footer/>
            

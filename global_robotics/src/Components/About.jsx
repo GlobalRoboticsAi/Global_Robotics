@@ -29,7 +29,7 @@ export default function About() {
         </div>
         <img className='robo' src={AboutSecRobot} />
       </div>
-
+      <div className="block">
       <div className="homeAboutSection">
         <img className="homeAboutSectionImage" src={AiImage} />
         <div className="homeAboutSectionText">
@@ -39,6 +39,7 @@ export default function About() {
           <p>As a global leader in robotics, we believe in pushing boundaries, empowering businesses, and building a smarter, more sustainable future through technology.</p>
           <p><b>Innovation. Intelligence. Impact.</b> That’s what drives Global Robotics.</p>
         </div>
+      </div>
       </div>
       <Footer />
 

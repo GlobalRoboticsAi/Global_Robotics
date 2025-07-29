@@ -54,6 +54,7 @@ export default function EVHome() {
                 <img className='EvPlayLogo' src={ServicesRobo} alt='xyz'/>
             </div>
             
+            <div className="block">
             <div className="evAboutSection">
         <img className="evAboutSectionImage" src={EVImage} />
         <div className="evAboutSectionText">
@@ -65,9 +66,11 @@ export default function EVHome() {
           <p><b>Belectriq</b> brings cutting-edge EV charging technology and smart energy solutions, while we at Global Robotics handle the on-ground execution, installation, and service operations. Together, we are committed to building a sustainable and energy-efficient future.</p>
         </div>
       </div>
+      </div>
       <EVServiceCrads/>
 
       {/* Why Choose Us */}
+      <div className="block">
         <div className="evAboutSection">
         <div className="evAboutSectionText">
           <h1>Why Choose<span style={{ color: "#28B896"}}> Us?</span></h1>
@@ -82,8 +85,9 @@ export default function EVHome() {
         </div>
           <img className="evAboutSectionImage" src={WhyChoose} />
       </div>
-
+      </div>
         {/* Types of charger */}
+        <div className="block">
         <div className="typesofev">
   <h1>🔌 Types of EV Chargers We Offer</h1>
   <div className="responsive-table-container">
@@ -164,17 +168,21 @@ export default function EVHome() {
     </table>
   </div>
 </div>
+</div>
 
-          {/* Belectriq logo */}
+          {/* Our Process */}
                 <br />
+                <div className="block">
                 <div className='EvProcess'>
                 <h1>Our <span style={{ color: "#28B896" }}>Process</span></h1>
               <img src={Evlogo} className='beLogo' alt="" />
+              </div>
               </div>
               <br />
 
         
        {/* Contact Us Form */}
+       <div className="block">
       <div className="contactUsFormSection">
         
         <div className="contactUsForm">
@@ -226,6 +234,7 @@ export default function EVHome() {
               <b>Sunday:</b> Closed</p>
           </div>
         </div>
+      </div>
       </div>
       <Footer/>
    </>

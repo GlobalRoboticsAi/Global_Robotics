@@ -47,7 +47,7 @@ export default function Careers() {
             </div>
 
             {/* Why Work With Us */}
-
+              <div className="block">
             <div className="CareersWhyWork">
               <h1>Why Work With <span style={{ color: "#28B896" }}>Us?</span></h1>
               <h2>Empowering Innovation Through Talent</h2>
@@ -73,10 +73,10 @@ export default function Careers() {
                 </div>
               </div>
             </div>
-
+            </div>
 
             {/* Open Positions */}
-
+              <div className="block">
             <div className="CareersOpenPositionSection">
               <h1>Open <span style={{ color: "#28B896" }}>Positions</span></h1>
               <h2>📌 We’re currently hiring for the following roles:</h2>
@@ -102,6 +102,7 @@ export default function Careers() {
           )}
         </div>
 
+            </div>
             </div>
             <Footer/>
     </div>

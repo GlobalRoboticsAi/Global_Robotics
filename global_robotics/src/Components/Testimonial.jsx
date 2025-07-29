@@ -27,6 +27,7 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
+    <div className="block">
     <div className="testimonial-container">
       <h1 className="testimonial-heading">
         Client <span style={{ color: "#28B896" }}>Testimonials</span>
@@ -44,6 +45,7 @@ const Testimonial = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
