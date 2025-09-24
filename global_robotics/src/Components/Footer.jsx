@@ -44,7 +44,7 @@ export default function Footer() {
           <ul>
             <li>+91 7756051573</li>
             <li><a href="mailto:globalrobotics.ai@gmail.com.com">globalrobotics.ai@gmail.com</a></li>
-            <li>Office no.s-6, 2nd floor, Krystal Plaza, near Gold's Gym, Tarabai Park, Kolhapur, Maharashtra 416003</li>
+            <li>CSN 511 KH-3,4 3rd floor, Ayodhya Tower, Station Road, Dabholkar Corner, Kolhapur-416001</li>
           </ul>
           <div className="footerSocial">
               <div className="socialIcons">
