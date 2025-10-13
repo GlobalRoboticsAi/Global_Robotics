@@ -242,7 +242,7 @@ export default function Home() {
           <p>We’d love to hear from you! </p>
           <div className="contactUsAddressData">
             <h2>📍 Our Office</h2>
-            <p>Office no.s-6, 2nd floor, Krystal Plaza, near Gold's Gym, Tarabai Park, Kolhapur, Maharashtra 416003</p><br />
+            <p>CSN 511 KH-3,4 3rd floor, Ayodhya Tower, Station Road, Dabholkar Corner, Kolhapur-416001</p><br />
 
             <h2>📞 Get in Touch</h2>
             <p><b>Phone:</b> +91 98765 43210 <br />
